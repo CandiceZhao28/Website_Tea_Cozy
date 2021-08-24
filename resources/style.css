@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* section: header */
+#header {
+    border-bottom: 1px solid seashell;
+    /* border: 1px dashed lightgreen; */
+    /* border-right:3px solid red; */
+    background-color: black;
+    margin-top: 0;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+}
+#logo {
+    float: left;
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    /* display: inline-block; */
+}
+#header ul {
+    float: right;
+    margin-right: 10px;
+}
+#header li {
+    display: inline-block;
+    text-decoration: underline;
+    margin: 0 10px;
+}
+
+/* section: banner */
+#banner {
+    background: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    top: 69px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#our-mission {
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+
+/* section: main */
+#main {
+    position: relative;
+    top: 100px;
+    /* border: 2px dashed lightpink; */
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#row-1 {
+    /* border: 1px dotted lightsalmon; */
+    display: flex;
+    justify-content: center;
+}
+#row-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#gallery figure {
+    /* border: 2px dashed white; */
+    margin: 5px 23px;
+}
+
+#gallery img {
+    width: 300px;
+    height: 200px;
+}
+
+#gallery h4 {
+    margin: 5px auto;
+}
+
+/* section: locations */
+#locations {
+    background: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    top: 120px;
+    margin: 0 auto;
+}
+
+#locations h2 {
+    position: relative;
+    top: 70px;
+}
+
+#address-container {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 120px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+
+.location {
+    height: 260px;
+    width: 300px;
+    background-color: black;
+    margin: 0 30px;
+    /* border: 1px dashed green; */
+}
+
+/* section: contact */
+#contact {
+    position: relative;
+    top: 120px;
+    height: 200px;
+    /* border: 2px solid greenyellow; */
+    margin: 0 auto;;
+}
+
+/* section: footer */
+#footer {
+    position: relative;
+    top: 120px;
+    text-align: left;
+    /* border: 2px solid orange; */
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 160px;
+}
